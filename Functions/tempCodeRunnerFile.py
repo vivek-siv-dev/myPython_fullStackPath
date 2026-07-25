@@ -1,2 +1,2 @@
-for key,value in score_bord:
-#     print(key,"    ",value)
+        # if ans[i]==anskey[i]:
+        #     score+=1

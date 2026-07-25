@@ -20,7 +20,7 @@
 #=======================================================================================================================================
 
 
-#PROBLOM:                   # 2.swapp 1st and last digit of a number using function
+#PROBLOM:                   # 2.swap 1st and last digit of a number using function
 
 
 #=======================================================================================================================================
@@ -33,7 +33,6 @@
 #     last_digit=new.pop(-1)
 #     new.insert(0,last_digit)
 #     new.append(first_digit)
-#     # new.append(first_digit)
 #     rev=""
 #     for i in new:
 #         rev+=i
@@ -76,32 +75,32 @@
 #==========================================================================================================================
 #solution:
 
-def factorial_operation(num):
-    result=0
-    while num!=0:
-        fact=1
-        for i in range(1,num+1):
-            fact*=i
-        result+=fact/num
-        print(f"{num}!={fact}")
-        num-=1
-    return result
+# def factorial_operation(num):
+#     result=0
+#     while num!=0:
+#         fact=1
+#         for i in range(1,num+1):
+#             fact*=i
+#         result+=fact/num
+#         print(f"{num}!={fact}")
+#         num-=1
+#     return result
 
-def fact(n):
-    f=1
-    for i in range(1,n+1):
-        f*=i
-    return f
+# def fact(n):
+#     f=1
+#     for i in range(1,n+1):
+#         f*=i
+#     return f
 
-n=int(input("enter the number:"))
-out=""
-for i in range(1,n+1):
-    if i!=n:
-        out+=f"({fact(i)}/{i})+"
-    else:
-        out+=f"({fact(i)}/{i})"
-out+=str(f"={factorial_operation(n)}")
-print(out)
+# n=int(input("enter the number:"))
+# out=""
+# for i in range(1,n+1):
+#     if i!=n:
+#         out+=f"({fact(i)}/{i})+"
+#     else:
+#         out+=f"({fact(i)}/{i})"
+# out+=str(f"={factorial_operation(n)}")
+# print(out)
 
 #output: 
 #enter the number:7
@@ -113,7 +112,61 @@ print(out)
 # 2!=2
 # 1!=1
 # (1/1)+(2/2)+(6/3)+(24/4)+(120/5)+(720/6)+(5040/7)=874.0
+#=======================================================================================================================================
 
 
+#PROBLOM:                     5. rverse of number with using funtion
 
+#======================================================================================================================================
+#solution:
+
+# def rev_number(num):
+#     rev=0
+#     while num !=0 :
+#         last_digit=num%10
+#         # if last_digit==0:
+
+#         rev=rev*10+last_digit
+#         num//=10
+#     return rev
+
+# n=int(input("Enter the number:"))
+# print("Revers of ",n,"is:",rev_number(n))
+
+#output:  Enter the number:528
+#         Revers of  528 is: 825
+
+#=======================================================================================================================================
+
+
+#PROBLOM:                FACTORIAL OF PRIME NUMBERS UP TO N using function *****
+
+
+#======================================================================================================================================
+#solution:
+
+def prime(limit):
+    pr=[]
+    for i in range(2,limit+1):
+        its_prime=True
+        for j in range(2,int(i*0.5)+1):
+            if i%j==0:
+                its_prime=False
+        if its_prime:
+            pr.append(i)
+    return pr
+def facto(prime):
+        fact = 1
+        for i in range(2,prime+1):
+            fact*=i
+        return fact
+
+     
+limit=int(input("enter the limit:"))  
+prime_numbers=prime(limit)
+print(f"There are {len(prime_numbers)} prime numbers up to  {limit} \nTHE PRIME NUMBER'S AND ITS FACTORIAL AS FOLLOWs \n\nPRIME_NUMBER\t\t FACTORIAL\n")
+for num in prime_numbers:
+    print(f"   {num}\t\t=>\t     {facto(num)}\n")
+
+    
 

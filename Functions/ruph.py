@@ -60,14 +60,34 @@
 # print(len(lw))
 
 
-st=input("enter sentance:").lower()
-nw=""
-nw=st[0]
-for ch in st:
-    if ch not in nw:
-        nw+=ch
-print(nw)
+# st=input("enter sentance:").lower()
+# nw=""
+# nw=st[0]
+# for ch in st:
+#     if ch not in nw:
+#         nw+=ch
+# print(nw)
+
+# n=int(input("enter the limits:"))
+# count=0
+# if n<2:
+#     print("there is no prime number in this range.!")
+# else:
+#     for i in range(1,n+1):
+#         count=0
+#         for j in range(1,i+1):
+#             if i%j==0:
+#                 count+=1
+#         if count==2:
+#             print(i)
 
 
-        
+
+
+
+
+
+
+
+
 
