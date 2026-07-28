@@ -1,53 +1,69 @@
-<<<<<<< HEAD
-# Higher Order Functions in Python
+# myPython_fullStackPath
 
-This repository contains my practice programs on Python Higher-Order Functions.
+A structured repository documenting my Python Full Stack Developer learning journey, including Python fundamentals, databases, web technologies, and hands-on projects.
 
-## Topics Covered
+## 📚 Topics Covered
 
-- filter()
-- map()
-- lambda functions
-- User-defined functions with Higher-Order Functions
+- Python Basics
+- Functions
+- Lists, Tuples, Sets & Dictionaries
+- File Handling
+- Object-Oriented Programming (OOP)
+- Exception Handling
+- Higher-Order Functions
+- Mini Projects
+- Git & GitHub Practice
+
+## 🚀 Technologies Used
+
+- Python 3
+- Git
+- GitHub
+- VS Code
+
+## 📂 Folder Structure
+
+```text
+myPython_fullStackPath/
+├── Python_Basics/
+├── Functions/
+│   └── Higher_Order_Functions/
+├── Lists/
+├── Dictionaries/
+├── OOP/
+├── File_Handling/
+├── Exception_Handling/
+└── Mini_Projects/
+```
+
+## 🧠 Latest Addition
+
+### Higher Order Functions in Python
+
+This section includes practice programs on:
+
+- `filter()`
+- `map()`
+- `lambda` functions
 - Prime number filtering
 - Even and odd number filtering
 - Numbers divisible by 5
-- Filtering words based on length
-- Factorial using map()
-- Interest calculation using map()
-- Multiple practice exercises
+- Factorial using `map()`
+- Interest calculation using `map()`
+- Multiple Higher-Order Function exercises
 
-## Concepts Learned
+### Concepts Learned
 
 - Passing functions as arguments
-- Using functions without calling them (`filter(confirm_prime, lst)`)
 - Difference between `confirm_prime` and `confirm_prime()`
-- Combining user-defined functions with `filter()` and `map()`
+- Using user-defined functions with `filter()` and `map()`
 
-## Sample Output
+## 🎯 Learning Goal
 
-```python
-Prime Numbers:
-[2, 3, 5, 7, 11, 37, 43, 61]
+To become a skilled Python Full Stack Developer by consistently learning, practicing, and building real-world projects.
 
-Even & Divisible by 5:
-[50, 10, 20]
-
-Interest:
-[2500.0, 5000.0, 7500.0, 10000.0]
-```
-
-## Author
+## 👨‍💻 Author
 
 **Vivek E**
 
 Learning Python step by step through daily coding practice.
-=======
-# vivek-siv-dev Python_fullstackPpath
-A structured repository documenting my Python Full Stack Developer learning journey, including Python fundamentals, databases, web technologies, and hands-on projects.
-📚 Topics covered
-🚀 Technologies used
-📂 Folder structure
-🎯 Learning goals
-🛠️ Projects completed
->>>>>>> b63fbfc4c79882e25d73f15ccbcf668a13f517a7
