@@ -1,0 +1,93 @@
+# function arguments clasification
+#------------------------------------------------
+#   1.positional arguments => arguments are assighned in the based on the position  eg:defnition-> def add(name,age)  call-> add("vivek",43)
+#   2.keyword arguments    => arguments are assighned in the based on name/keyword  eg:defnition-> def add(name,age)  call-> add(age=43,name="vivek")
+#   3.Default arguments
+#   4.variable length arguments(*args) or ARBITRARY arguments
+    #    SYNTAX: give a star * infront of the argument
+    #           def count(*num):
+      
+#   5.keyword variable length arguments(***args)
+    # 6.ARbitrary arguments
+
+#==============================
+# ===============================================================
+# 1.positional arguments => arguments are assighned in the based on the position
+
+# eg:
+
+# def student(name,age):
+#     print(name)
+#     print(age)
+
+# student("sachu",24)
+#=============================================================================================
+# 2.keyword arguments => arguments are assighned in the based on the position
+
+# eg:
+
+# def student(name,age):
+#     print(name)
+#     print(age)
+
+# student(age=24,name="minnu")
+
+#OUTPUT:
+        # minnu
+        # 24
+
+# 2.DEFAULT arguments => arguments are assighned in the based on the position
+
+# eg:
+
+# def student(name="VIVEK"):
+#     print(name)
+# student()
+# #OUTPUT:1
+#         minnu
+# #OUTPUT2
+
+
+def count(*num):
+      print(num)
+count(3,4,6,7)
+
+
+
+# 
+
+# 4.product of a number with using funtion
+# 5. rverse of number with using funtion
+# 6.palindrome of number with using funtion
+# 7.palindrome of a string with using funtion
+# 8.find the power of a number string with using funtion
+# 9.factors of a number string with using funtion
+# 10.prime number btw 1 to n string with using funtion
+# 11. fibinocci  series till n string with using funtion
+# 12. prime factors of number string with using funtion
+# 14. sum of prime numbers upto n  string with using funtion
+# 15.armstrong number upto n string with using funtion
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
