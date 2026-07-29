@@ -19,7 +19,7 @@ def quiz(name,ans):
     data[name]['score']=score
     return data
 
-def score_bord(name):
+def score_board(name):
 
     print(main)
     top_sco=main[names[0]]['score']
@@ -28,7 +28,7 @@ def score_bord(name):
         if main[name]['score']>top_sco:
             winner=name
     print(f"THE WINNER OF THE QUIZ IS: mr.{winner} WITH THE SCORE OF {main[winner]['score']} ")
-    print(f"score bord of {winner} =>",main[winner])
+    print(f"score board of {winner} =>",main[winner])
 
 
 q={1:" What is the national animal of India?",
@@ -46,7 +46,7 @@ main={}
 names=[]
 atmpt=3
 while True:
-    print(""" 1.PARTICIPENT
+    print(""" 1.PARTICIPANT
              2.QUIZ MASTER
              SELECT YOUR ROLE""")
     role=int(input("1 or 2:"))
@@ -71,9 +71,9 @@ while True:
                 print("good bye..!!  you reached maximum number of attempt")
                 break
     elif role==2:
-        password=input("Enter Quiz Master Password For SHOwing ENTIRE SCORE BORD AND THE WINNER:")
+        password=input("Enter Quiz Master Password For SHOWING ENTIRE SCORE BOARD AND THE WINNER:")
         if password=='520':
-            score_bord(name)
+            score_board(name)
         else:
             print("wrong password enterd")
     

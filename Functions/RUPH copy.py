@@ -1,14 +1,17 @@
 #PRIME NUMBER
 #--------------------------------------------------------------------------
+
+def check_prime(n):
+    for i in range(2,int(n**0.5)+1):
+        if n%i==0:
+            return ' '
+        else:
+            return n
+
 n=int(input("limit:"))
 for i in range(2,n+1):
-    prime=True
-    for div in range(2,int(i**0.5)+1):
-        # print(div)
-        if i%div==0:
-            prime=False
-    if prime:
-         print(i,end=" ")
+    print(check_prime(i))
+        
 
 
 #METRIX MULTIPLICARTION

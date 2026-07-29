@@ -1,3 +1,1 @@
-
-n2=""
-reach_op=False
+    print(prime(n))

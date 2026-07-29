@@ -3,20 +3,20 @@
 #=======================================================================================================================================
 
 
-#PROBLOM:               KEEP TAKING NUMBERS FROM THE USER. WHEN THE USER ENTERS 0, PRINT THE TOTAL SUM AND STOP.
+#PROBLOM:     KEEP TAKING NUMBERS FROM THE USER. WHEN THE USER ENTERS 0, PRINT THE TOTAL SUM AND STOP.
 
 
 #=======================================================================================================================================
 #solution:
 
-sum=0
-while True:
-    n=int(input("enter numbers:"))
-    if n==0:
-        print("sum of your enterd numbers is :",sum)
-        break
-    else:
-        sum+=n
+# sum=0
+# while True:
+#     n=int(input("enter numbers:"))
+#     if n==0:
+#         print("sum of your enterd numbers is :",sum)
+#         break
+#     else:
+#         sum+=n
 #output:
 
 
@@ -280,18 +280,18 @@ while True:
 #------------------------------------------------------------ END ----------------------------------------
 #  prime number up to n using for loop
 #==========================================================================================================
-# n=int(input("enter the limits:"))
-# count=0
-# if n<2:
-#     print("there is no prime number in this range.!")
-# else:
-#     for i in range(1,n+1):
-#         count=0
-#         for j in range(1,i+1):
-#             if i%j==0:
-#                 count+=1
-#         if count==2:
-#             print(i)
+n=int(input("enter the limits:"))
+count=0
+if n<2:
+    print("there is no prime number in this range.!")
+else:
+    for i in range(1,n+1):
+        count=0
+        for j in range(1,i+1):
+            if i%j==0:
+                count+=1
+        if count==2:
+            print(i)
 #------------------------------------------------------------ END ----------------------------------------
 # TAKE A STRING AND COUNT HOW MANY DIGITS ARE PRESENT 
 #==========================================================================================================

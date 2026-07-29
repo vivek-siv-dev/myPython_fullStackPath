@@ -57,10 +57,8 @@
 
 
 def num(l):
-    print(l)
     if l < 7:
         return(num(l+1))
-
 print(num(1))
 
 

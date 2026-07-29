@@ -168,5 +168,30 @@ print(f"There are {len(prime_numbers)} prime numbers up to  {limit} \nTHE PRIME 
 for num in prime_numbers:
     print(f"   {num}\t\t=>\t     {facto(num)}\n")
 
+
+#=======================================================================================================================================
+
+
+#PROBLOM:                SORT PRIME NUMBERS FROM A LIST using function *****
+
+
+#======================================================================================================================================
+#solution:
+
+def prime_in_list(n):
+    prime = True
+    if n<2:
+        return False
+    for i in range(2,int(n**0.5)+1):
+        if n%i==0:
+            prime=False
+    if prime:
+        return n
+n=[3,4,6,5,2,3,4,5,6,17,44,33,2,4,55,4,22,46,68,53,88,81,83]
+print("prime numbers in this list are:")
+for i in n:
+    if prime_in_list(i) is not None:
+        print(prime_in_list(i),end=" ")
+
     
 
